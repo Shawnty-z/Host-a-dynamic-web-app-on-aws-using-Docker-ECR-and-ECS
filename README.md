@@ -6,7 +6,7 @@ This project demonstrates how to host a dynamic web application on AWS using Doc
 
 ## Architecture Overview
 
-![Alt text](Host a Dynamic Web App on AWS using Docker, ECR, and ECS.png)
+![Architecture Diagram](Host_a_Dynamic_Web_App_on_AWS_using_Docker_ECR_and_ECS.png)
 
 ### Key Resources Used:
 
