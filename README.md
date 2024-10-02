@@ -49,7 +49,6 @@ The deployment is automated using several shell scripts:
    --build-arg RDS_DB_PASSWORD= \
    -t <image-tag> .
    ```
-   [Full Script](path-to-build-image.sh)【26†source】
 
 2. **migrate-data.sh**:
    This script automates the migration of SQL data to the RDS instance using Flyway. The migration SQL file is stored in S3 and downloaded for execution.
@@ -60,7 +59,6 @@ The deployment is automated using several shell scripts:
      -locations=filesystem:sql \
      migrate
    ```
-   [Full Script](path-to-migrate-data.sh)【30†source】
 
 ## Issues Faced & Solutions
 
